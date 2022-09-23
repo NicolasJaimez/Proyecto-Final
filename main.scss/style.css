@@ -261,6 +261,12 @@ aside .div__container-cont {
   padding: 5px;
 }
 
+footer div ul p {
+  color: rgba(255, 255, 255, 0.4392156863);
+  text-align: center;
+  overflow: hidden;
+}
+
 main .h1__pf {
   color: #ffffff;
   text-align: center;
@@ -270,6 +276,12 @@ main .h1__pf {
 main .h1__pf:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+footer div ul p {
+  color: rgba(255, 255, 255, 0.4392156863);
+  text-align: center;
+  overflow: hidden;
 }
 
 .div-cont-ubi {
@@ -289,6 +301,12 @@ main .h1__pf:hover {
 .google-map iframe {
   width: 90%;
   height: 750px;
+}
+
+footer div ul p {
+  color: rgba(255, 255, 255, 0.4392156863);
+  text-align: center;
+  overflow: hidden;
 }
 
 .h1-qs {
@@ -318,4 +336,10 @@ main .h1__pf:hover {
   color: #e6ff02;
   text-decoration: underline;
   cursor: pointer;
+}
+
+footer div ul p {
+  color: rgba(255, 255, 255, 0.4392156863);
+  text-align: center;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
