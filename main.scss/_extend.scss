@@ -1,0 +1,25 @@
+@import 'vars';
+.title {
+    text-align: center;
+    font-size: 3rem;
+    color: $colorTx;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 5px;
+}
+.title-1 {
+    @extend .title;
+    background-color: rgba(231, 75, 75, 0.774);
+}
+.title-2 {
+    @extend .title;
+    background-color: rgb(218, 0, 199);
+}
+.title-3 {
+    @extend .title;
+    background-color: rgba(91, 214, 223, 0.726);
+}
+.title-4 {
+    @extend .title;
+    background-color: rgba(0, 56, 141, 0.795);
+}

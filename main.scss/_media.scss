@@ -1,0 +1,63 @@
+@import 'vars';
+@import 'main';
+@media (max-width: 480px) {
+    title {
+       text-align: center;
+       font-size: 1rem;
+    }
+    .div-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hidden {
+        color: red;
+    }
+
+    /* Contactos */
+
+    .main__cont {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Quienes Somos */
+
+    .h1-qs {
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+    }
+    .text__qs {
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: sans-serif;
+        span {
+            color: #e6ff02;
+            text-decoration: underline;
+        }
+    }
+
+    /* Ubicacion */
+
+    .div-cont-ubi {
+        display: flex;
+        flex-direction: column;
+        .form-ubi {  
+            input {
+                margin: 10px;
+                padding: 5px;
+                border-radius: 7px;
+                border-color: $colorBg;
+            }      
+        }
+    }
+    .google-map {
+        iframe{
+            width: 90%;
+        }
+    }
+
+}

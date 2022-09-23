@@ -1,0 +1,13 @@
+@import 'vars';
+main {
+    .h1__pf {
+        color: $colorTx;
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+    }
+    .h1__pf:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}

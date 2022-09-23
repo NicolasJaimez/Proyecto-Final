@@ -1,0 +1,17 @@
+@import 'vars';
+.main__cont {
+    .titles {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: $colorTx;
+    }  
+}
+aside {
+    .div__container-cont {
+        color: $colorTx;
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+    }
+}

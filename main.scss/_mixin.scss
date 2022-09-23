@@ -1,0 +1,21 @@
+@mixin imagen ($fondo) {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: $fondo
+}
+.imagen-1 {
+    @include imagen (#000000);
+}
+.imagen-2 {
+    @include imagen(#ffffff);
+}
+.imagen-3 {
+    @include imagen(#f80808);
+}
+.imagen-4 {
+    @include imagen(#808080);
+}

@@ -1,0 +1,20 @@
+@import 'vars';
+.div-cont-ubi {
+    text-align: center;
+    color: $colorTx;
+        .form-ubi {
+            input {
+                margin: 10px;
+                padding: 5px;
+                border-radius: 7px;
+                border-color: $colorBg;
+            }
+        }
+    }
+    .google-map {
+        max-width: 100%;
+        iframe {
+            width: 90%;
+            height: 750px;
+        }
+    }   
