@@ -1,7 +1,11 @@
 @import 'vars';
 @import 'main';
 @media (max-width: 480px) {
-    title {
+    .grid__container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row: 1;
+    }
+    /* title {
        text-align: center;
        font-size: 1rem;
     }
@@ -13,7 +17,7 @@
 
     .hidden {
         color: red;
-    }
+    } */
 
     /* Contactos */
 
