@@ -55,3 +55,11 @@
     }
 
 }
+
+@media (min-width: 490px) and (max-width: 768px) {
+    .titles {
+        h2 {
+            text-align: center;
+        }
+    }
+}

@@ -247,6 +247,11 @@ footer .container-fluid ul li p {
     width: 90%;
   }
 }
+@media (min-width: 490px) and (max-width: 768px) {
+  .titles h2 {
+    text-align: center;
+  }
+}
 .main__cont .titles {
   display: flex;
   align-items: center;
