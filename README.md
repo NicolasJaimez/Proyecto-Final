@@ -1,6 +1,6 @@
 ## Descripcion 
 
-Esto es un proyecto terminado basico, creado con HTML, CSS , SASS
+Esto es un proyecto terminado basico, creado con HTML, CSS , SCSS
 
 ## Autor-
 **Nicolas Jaimez**
