@@ -2,7 +2,7 @@
 
 Esto es un proyecto terminado basico, creado con HTML, CSS , SCSS
 
-## Autor-
+## Autor
 **Nicolas Jaimez**
 
 * [LinkedIn](https://www.linkedin.com/in/nicolas-jaimez/)
